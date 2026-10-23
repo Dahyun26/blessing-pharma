@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,31 +16,53 @@
 </head>
 <body>
 
+<!-- HEADER -->
 <header class="site-header">
     <div class="container nav">
-        <a class="brand" href="index.html#home">
-            <img src="images/logo.png" alt="Blessing Pharma Logo" class="logo">
-            <div class="brand-text">
-                <div class="brand-name">Blessing <span>Pharma</span></div>
-                <small>and Medical Supplies Trading</small>
-            </div>
-        </a>
 
-        <button class="mobile-menu" id="menuToggle"
-                aria-label="Toggle navigation"
-                aria-expanded="false">
-            <i class="fa-solid fa-bars"></i> Menu
+    <a class="brand" href="#home">
+    <img
+        src="images/logo.png"
+        alt="Blessing Pharma Logo"
+        class="logo"
+    >
+
+    <div class="brand-text">
+        <div class="brand-name">
+            Blessing<span>Pharma</span>
+        </div>
+        <small>and &amp; Medical Supplies Trading.</small>
+    </div>
+</a>
+
+        <button class="mobile-menu" id="menuToggle" aria-label="Toggle navigation">
+            ☰ Menu
         </button>
 
         <nav class="navlinks" id="navlinks">
-            <a href="index.html#home">Home</a>
-            <a class="active" href="about.html">About Us</a>
-            <a href="index.html#products">Products</a>
-            <a href="index.html#services">Services</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+    <a href="index.html">Home</a>
+    <a href="about.html" class="active">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#services">Services</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+        <form class="search" id="searchForm">
+            <span>⌕</span>
+            <input
+                id="searchInput"
+                type="search"
+                placeholder="Search for products or services..."
+                aria-label="Search products">
+            <button type="submit" aria-label="Search">⌕</button>
+        </form>
+
+
     </div>
 </header>
+
+<main>
+
 
 <main>
 
@@ -75,7 +96,7 @@
             </div>
 
             <div class="hero-image">
-                <img src="images/main.png" alt="Blessing Pharma healthcare image">
+                <img src="images/logo.png" alt="Blessing Pharma healthcare image">
                 <div class="image-label">
                     <i class="fa-solid fa-shield-heart"></i>
                     <span>Quality Products, Care You Can Trust</span>
@@ -90,7 +111,7 @@
             <div class="section-heading">
                 <span class="eyebrow">OUR COMPANY</span>
                 <h2>Who <span>We Are</span></h2>
-                <div class="underbar"></div>
+
             </div>
 
             <div class="story-content">
@@ -116,9 +137,8 @@
     <section class="section mission-section">
         <div class="container">
             <div class="center-heading">
-                <span class="eyebrow">OUR PURPOSE</span>
+               
                 <h2>Mission <span>&amp; Vision</span></h2>
-                <div class="underbar"></div>
                 <p>What guides our service and our commitment to customers.</p>
             </div>
 
@@ -129,10 +149,12 @@
                     </div>
                     <h3>Our Mission</h3>
                     <p>
-                        To provide quality pharmaceutical products and
-                        medical supplies with dependable service, helping
-                        meet the needs of healthcare providers and the
-                        communities they serve.
+                        To be a source of blessing to our community by providing
+                        affordable, high - quality pharmaceutical and medical supplies.
+                        We are committed to ensuring that everyone has access to reliable
+                        healthcare products while delivering exceptional service and service
+                        with compassion and care.
+                        
                     </p>
                 </article>
 
@@ -142,9 +164,10 @@
                     </div>
                     <h3>Our Vision</h3>
                     <p>
-                        To become a trusted provider of pharmaceutical
-                        products and medical supplies, recognized for
-                        quality, affordability, and reliable customer service.
+                        To be a beacon of hope and a trusted partner in healthcare,
+                        recognized for our commitment to offering affordable solutions
+                        that improve lives. Through our work, we aim to be a blessing to
+                        every individual and family we serve, fostering a healthier and happier community.
                     </p>
                 </article>
             </div>
@@ -171,27 +194,34 @@
 
             <div class="org-chart">
 
-                <!-- LEVEL 1: BUSINESS OWNER -->
-                <div class="org-level">
-                    <div class="org-card top-card">
-                        <i class="fa-solid fa-building"></i>
-                        <h3>Business Owner / Management</h3>
-                        <p>Overall leadership and direction</p>
-                    </div>
-                </div>
+<!-- LEVEL 1: CEO / BUSINESS OWNER -->
+<div class="org-level">
+    <article class="org-card top-card owner-card">
+        <img
+            src="images/ceo.png"
+            alt="Business Owner"
+            class="org-person-photo"
+        >
 
+        <h3>John Mark Paña</h3>
+        <p>Chief Executive Officer</p>
+    </article>
+</div>
                 <div class="org-connector"></div>
 
                 <!-- LEVEL 2: FIVE DEPARTMENTS -->
                 <div class="org-departments">
 
                     <article class="org-card department-card">
-                        <div class="department-icon">
-                            <i class="fa-solid fa-boxes-stacked"></i>
-                        </div>
-                        <h3>Inventory &amp; Warehouse</h3>
-                        <p>Stock monitoring and inventory records</p>
-                    </article>
+    <img
+        src="images/inventory.png"
+        alt="Inventory and Warehouse Representative"
+        class="org-person-photo"
+    >
+
+    <h3>Gomer Manombaga</h3>
+    <p>Operations Assistant</p>
+</article>
 
                     <article class="org-card department-card">
                         <div class="department-icon">
@@ -202,12 +232,15 @@
                     </article>
 
                     <article class="org-card department-card">
-                        <div class="department-icon">
-                            <i class="fa-solid fa-calculator"></i>
-                        </div>
-                        <h3>Accounting</h3>
-                        <p>Financial records, expenses, and transaction monitoring</p>
-                    </article>
+    <img
+        src="images/accounting.png"
+        alt="Financial and Accounting"
+        class="org-person-photo"
+    >
+
+    <h3>Jeanly Rose Libo-On</h3>
+    <p>Secretary</p>
+</article>
 
                     <article class="org-card department-card">
                         <div class="department-icon">
@@ -250,32 +283,64 @@
                     <div class="value-icon">
                         <i class="fa-solid fa-shield-heart"></i>
                     </div>
+                    <h3>Benevolence</h3>
+                    <p>We served with kindness, compassion, and a genuine desire to help others through accessible healthcare products and services.</p>
+                </article>
+
+                <article class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h3>Loyalty and Integrity</h3>
+                    <p>We build lasting relationship through honesty, transparency, accountability and keeping our promises to customers partners.</p>
+                </article>
+
+                <article class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-medal"></i>
+                    </div>
                     <h3>Quality</h3>
-                    <p>We value quality in the products we offer and the service we provide.</p>
+                    <p>We strive for excellence in product quality, customer service, operational efficiency and professional performance.</p>
                 </article>
 
                 <article class="value-card">
                     <div class="value-icon">
-                        <i class="fa-solid fa-handshake-angle"></i>
+                        <i class="fa-solid fa-coins"></i>
                     </div>
-                    <h3>Reliability</h3>
-                    <p>We strive to be a dependable partner to our customers.</p>
+                    <h3>Service and Accountability</h3>
+                    <p>We put customers first by providing reponsive service and budget - friendly healthcare products without compromising quality and safety. </p>
                 </article>
 
                 <article class="value-card">
                     <div class="value-icon">
-                        <i class="fa-solid fa-users"></i>
+                        <i class="fa-solid fa-user-group"></i>
                     </div>
-                    <h3>Customer Care</h3>
-                    <p>We value respectful communication and responsive assistance.</p>
+                    <h3>Solidarity and Teamwork</h3>
+                    <p>We value teamwork, mutual respect, open communication, and shared responsibility in achieving our company's goals.</p>
+                </article>
+
+                <article class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-arrows-rotate"></i>
+                    </div>
+                    <h3>Innovation and Improvement</h3>
+                    <p>We embrace innovation and continuous improvement to meet the evolving needs of our customers and healtcare products.</p>
                 </article>
 
                 <article class="value-card">
                     <div class="value-icon">
                         <i class="fa-solid fa-heart"></i>
                     </div>
-                    <h3>Community</h3>
-                    <p>We aim to support the healthcare needs of the communities we serve.</p>
+                    <h3>Nurturing Care</h3>
+                    <p>We treat every customer, colleague, and healthcare partner with respect, empathy, and genuine concern for their needs.</p>
+                </article>
+
+                <article class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-hands-praying"></i>
+                    </div>
+                    <h3>God Centered Gratidute</h3>
+                    <p>We recognize GOD as the source of our blessings and commit to managing our business with humility, gratitude, stewardship and purpose.</p>
                 </article>
             </div>
         </div>
